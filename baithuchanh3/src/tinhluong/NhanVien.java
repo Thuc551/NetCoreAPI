@@ -1,4 +1,5 @@
 package tinhluong;
+
 import java.util.Scanner;
 
 public class NhanVien {
@@ -21,7 +22,6 @@ public class NhanVien {
         tenNhanVien = scanner.nextLine();
     }
      
-    // khai báp phương thức tinhLuong() để lớp con có thể ghi đè
     public void tinhLuong() {
          
     }
@@ -31,7 +31,5 @@ public class NhanVien {
         return "Tên nhân viên: " + this.tenNhanVien + ", lương nhân viên: " + 
             this.luongNhanVien + " VND";
     }
-
-	
 
 }
