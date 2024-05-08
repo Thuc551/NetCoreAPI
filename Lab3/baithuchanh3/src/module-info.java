@@ -5,5 +5,5 @@
  * @author Admin
  *
  */
-module baithuchanh3 {
+module tinhluong1 {
 }
